@@ -1,0 +1,16 @@
+form, h1 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 20px;
+    align-items: center;
+}
+textarea, input {
+    resize: vertical;
+    width: 600px;
+    height: 30px;
+}
+
+textarea {
+    height: 200px;
+}

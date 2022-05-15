@@ -1,0 +1,74 @@
+@import "../node_modules/normalize.css/normalize.css";
+
+* {
+	margin: 0;
+	box-sizing: inherit;
+	color: #333;
+}
+
+.myhead {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	max-width: 600px;
+	margin: 0 auto;
+	border-bottom: 1px solid #f2f2f2;
+
+}
+
+h1 {
+	color: #f1356d;
+}
+
+nav {
+	margin-left: 16px;
+	text-decoration: none;
+	padding: 6px;
+}
+
+.myhead a {
+	margin-left: 16px;
+	text-decoration: none;
+	padding: 6px;
+}
+
+.myhead a:hover {
+	color: #f1356d;
+}
+
+.myhead h1 {
+	max-width: 600px;
+	margin: 40px auto;
+	padding: 20px;
+	font-size: 36px;
+}
+
+html {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Nunito", "Arial", "Helvetica", sans-serif;
+}
+.post {
+	margin: 5px;
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	position: relative;
+	font-size: 20px;
+	color: #f1356d;
+	margin-bottom: 32px;
+}
+
+.post:hover {
+	box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.post img {
+	width: 100%;
+}
+.post .delete {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
